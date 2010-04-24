@@ -1,0 +1,16 @@
+# URL Shorting Service like http://is.gd
+
+# Ruby + Sinatra 
+
+== Setup
+
+# sqlite3 database located in "db/development.sqlite3"
+
+# SQL: CREATE TABLE uris (count INT, uri_hash VARCHAR, id INTEGER PRIMARY KEY, original_uri TEXT);
+
+# in terminal
+# $ ruby app.rb
+
+# open:
+# http://localhost:4567
+# enter the URL that you want to shrink. Submit. Then you are in the your short URL info page. Share the short URL :)
