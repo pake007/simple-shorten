@@ -1,0 +1,6 @@
+%h1="Shorten An Url"
+%form{:method => 'POST', :action => "/create"}
+	%p
+		%textarea{:name => 'original_uri', :rows => 4, :cols => 60}
+	%p
+		%input.submit{:type => :submit, :value => "Make short"}
